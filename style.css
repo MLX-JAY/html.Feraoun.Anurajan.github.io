@@ -39,10 +39,6 @@ nav>ul
     justify-content: left;
     gap: 35px;
 }
-table
-{
-    margin: 40px auto;
-}
 body
 {
     font-family: serif;
@@ -81,14 +77,10 @@ header
     align-items: center;
 
     border-bottom: 4px solid;
-<<<<<<< HEAD
-    border-image: linear-gradient(to left, #003366, #00C6FF) 1;
-=======
     border-image: linear-gradient(to right, #003366, #00C6FF) 1;
     background-image: url('img/backgroundHeader.png');
     background-repeat: repeat;
     background-size: 500px;
->>>>>>> 65affcf3bcdf7018e7876f9a82e85e95317c8424
 }
 header img
 {
@@ -134,15 +126,10 @@ footer
     text-align: center;
     margin-top: 20px;
     border-top: 4px solid #6fa8dc;
-<<<<<<< HEAD
-    border-image: linear-gradient(to left, #003366, #00C6FF) 1;
-    padding: 20px; 
-=======
     padding: 60px 20px;
     background-image: url('img/backgroundHeader.png');
     background-repeat: repeat;
     background-size: 500px;
->>>>>>> 65affcf3bcdf7018e7876f9a82e85e95317c8424
 }
 
 footer address
@@ -178,11 +165,6 @@ main p
     width: 400px;
     height: auto;
 }
-header nav
-{
-    border-left: 4px solid #6fa8dc;
-    border-image: linear-gradient(to left, #003366, #00C6FF) 1;
-}
 #homme-intero
 {
     height: 200px;
@@ -196,4 +178,14 @@ header nav
 #liste
 {
     margin: 10px 30px;
+}
+th, td 
+{
+    padding: 15px; 
+    border: 1px solid royalblue;
+    text-align: left;
+}
+table 
+{
+    margin: 40px auto;
 }
