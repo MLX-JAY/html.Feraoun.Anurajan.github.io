@@ -24,12 +24,10 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto; 
-    padding: 15px 40px;
-    padding-top: 30px;
-    border: 1px solid rgba(0, 0, 0, 1);
-    border-radius: 10px;
+    margin: 0 auto;
+    padding: 25px;
     backdrop-filter: blur(5px);
+    border: 4px solid #6fa8dc;
 }
 
 nav>ul 
@@ -81,20 +79,17 @@ header
     align-items: center;
 
     border-bottom: 4px solid;
-<<<<<<< HEAD
-    border-image: linear-gradient(to left, #003366, #00C6FF) 1;
-=======
-    border-image: linear-gradient(to right, #003366, #00C6FF) 1;
+    border-image: linear-gradient(to right, #00C6FF, #003366) 1;
     background-image: url('img/backgroundHeader.png');
     background-repeat: repeat;
     background-size: 500px;
->>>>>>> 65affcf3bcdf7018e7876f9a82e85e95317c8424
 }
 header img
 {
     width: auto;
     height: 200px;
     padding: 10px;
+    border: 4px solid #6fa8dc;
 }
 figure img
 {
@@ -134,15 +129,10 @@ footer
     text-align: center;
     margin-top: 20px;
     border-top: 4px solid #6fa8dc;
-<<<<<<< HEAD
-    border-image: linear-gradient(to left, #003366, #00C6FF) 1;
-    padding: 20px; 
-=======
     padding: 60px 20px;
     background-image: url('img/backgroundHeader.png');
     background-repeat: repeat;
     background-size: 500px;
->>>>>>> 65affcf3bcdf7018e7876f9a82e85e95317c8424
 }
 
 footer address
@@ -153,7 +143,7 @@ footer address
     padding: 10px;
     backdrop-filter: blur(5px);
     border-radius: 30px;
-    border: 1px solid #000000;
+    border: 4px solid #6fa8dc;
 }
 footer p
 {
@@ -172,6 +162,9 @@ footer address p strong {
 main p
 {
     display: block;
+    font-family: "Didot", "Didot LT STD", "Hoefler Text", "Apple Chancery", serif;
+    font-size: 1.3rem;
+    font-weight: 400;
 }
 #shema img
 {
@@ -180,20 +173,34 @@ main p
 }
 header nav
 {
-    border-left: 4px solid #6fa8dc;
     border-image: linear-gradient(to left, #003366, #00C6FF) 1;
 }
-#homme-intero
+
+#image-acceuil
 {
     height: 200px;
     width: auto;
 }
-#logo-entreprise
+#images-section
 {
-    height: 200px;
-    width: auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
 }
 #liste
 {
     margin: 10px 30px;
+}
+
+#images-section figure {
+    margin: 0 !important;      /* Annule le "margin: 40px auto" global */
+    width: 200px;
+    height: 200px;              /* Empêche la figure de prendre toute la largeur */
+}
+
+#homme-intero img, #logo-entreprise {
+    height: 180px;  
+    width: auto;
+    object-fit: contain;
 }
